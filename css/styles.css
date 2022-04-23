@@ -145,12 +145,32 @@ z-index: 100;
     text-align: center;
     line-height: 3rem;
 }
+
+#hamburger{
+    display: none;
+}
+
+#mobile-nav{
+    display: none;
+}
 /*****************************************/
 
 
 /* Media queried */
 
 /* general rules for flex changes */
+
+@media (min-width: 1200px){
+    Rules
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    Rules
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    Rules
+}
 
 @media screen and (max-width: 767.98px){
     
@@ -160,14 +180,22 @@ z-index: 100;
         position: relative;
     }
     
-
+#mobile-nav{
+    display: initial;
+}
     
     #slogan-btn{
         align-items: center;
         justify-content: center;
         padding: 0;
     }
+    
+    #hamburger{
+        margin: 15px;
+        display: block;
+    }
 }
+
 
 @media screen and (min-width: 576px) and (max-width: 767.98px){
     Rules
@@ -210,7 +238,7 @@ z-index: 100;
     .hero-row{
         top: -3rem;
     }
-    .dropdown{
+    .dropdown, #mobile-nav{
         display: none;
         background-color: #3437CF;
         line-height: 2rem;
