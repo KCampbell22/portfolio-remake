@@ -73,8 +73,8 @@
 
     <!-- hero banner -->
 
-    <div class="hero">
-      <header>
+    <section class="wrap">
+      <header class="hero">
         <img id="top-left-img" src="/Images/top-left.svg" alt="" />
         <div class="hero-row">
           <div id="logo-wrapper">
@@ -89,30 +89,39 @@
             >
           </div>
         </div>
-        <div id="headshot-wrap" style="display: flex">
+        <div id="headshot-wrap">
           <img src="/Images/hero/Headshot 1.png" id="headshot" alt="" />
         </div>
       </header>
-    </div>
+    </section>
 
     <!-- skills and bio -->
 
-    <div id="skills-bio">
+    <section style="z-index: 100" id="skills-bio">
       <div class="skills">
         <div class="skills-column">
-          <h3 class="skills-title">skills</h3>
-          <div class="skill-box">html</div>
-          <div class="skill-box">css</div>
-          <div class="skill-box">JavaScript</div>
+          <img src="/Images/skill-bg.svg" id="skill-bg" alt="" />
+          <h3 class="skills-title">Skills</h3>
+          <div class="skill-box-wrap">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+          </div>
         </div>
       </div>
       <div class="bio">
-        <p></p>
+        <p>
+          Freelance Front-End Web Developer out of St. Louis, MO. I specialize
+          in creating high quality, responsive websites, landing pages, and web
+          applications. My promise is to work closely with you to create a
+          website that meets your vision and exceeds your expectations. I have a
+          strong focus on usability and making sure your website looks great on
+          any device. Contact us today to discuss your project!
+        </p>
       </div>
-    </div>
-
+    </section>
     <!-- projects -->
-    <div id="projects">
+    <section id="projects">
       <div class="project-card-wrap">
         <div class="project-card">
           <h4>Endurance+</h4>
@@ -122,7 +131,14 @@
           <a href="" class="card-btn"></a>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="info">
+        <h1>hello</h1>
+      </div>
+      <div class="form"></div>
+    </footer>
     <link rel="stylesheet" href="/apps.js" />
   </body>
 </html>
