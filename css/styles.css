@@ -423,11 +423,10 @@ z-index: 100;
         min-height: 71rem;
     }
     .hero{
-        min-height: 53rem;
         margin-bottom: 13rem;
      }
      .hero-row{
-         top: -14rem;
+         top: -12rem;
      }
     
      .btn-orange-1{
@@ -446,7 +445,8 @@ z-index: 100;
     #logo-wrapper img{
 
     }
-    #headshot{
+    #headshot-wrap{
+        top: -3rem;
     }
     #logo-wrapper img{
         width: 200px;
@@ -471,7 +471,7 @@ z-index: 100;
         text-align: center;
     }
     #headshot-wrap{
-        top:-6rem;
+        top:-3rem;
     }
 
 }
