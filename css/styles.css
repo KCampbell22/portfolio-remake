@@ -334,6 +334,9 @@ z-index: 100;
     text-align: center;
     line-height: 3rem;
     font-family: 'Inter';
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+
 }
 
 #hamburger{
@@ -353,6 +356,8 @@ z-index: 100;
     line-height: 4rem;
     width: 300px;
     height: 70px;
+    text-shadow: 0px 1px 1px black;
+
 }
 #logo-wrapper img{
     width: 310px;
@@ -460,6 +465,7 @@ z-index: 100;
         max-height: 67px;
         min-height: 47px;
         text-align: center;
+        text-shadow: 0px 1px 1px black;
     }
      
     .header-dt{
@@ -492,6 +498,8 @@ z-index: 100;
     .btn-orange-1{
         margin-top: 1.7rem;
         text-align: center;
+                text-shadow: 0px 1px 1px black;
+
     }
     #headshot-wrap{
         top:-3rem;
@@ -519,6 +527,8 @@ z-index: 100;
             min-width: 203px;
             max-height: 67px;
             min-height: 47px;
+            text-shadow: 0px 1px 1px black;
+
             text-align: center;
         }
         
@@ -543,6 +553,8 @@ z-index: 100;
         .btn-orange-1{
             margin-top: 1.7rem;
             text-align: center;
+            text-shadow: 0px 1px 1px black;
+
         }
         #headshot-wrap{
             top: 0;
@@ -856,7 +868,7 @@ z-index: 100;
     width: 150px;
     height: 150px;
 }
-.project-card h4{
+.project-card h3{
     font-size: 1.5rem;
     font-family: 'Poppins';
 }
@@ -872,7 +884,10 @@ z-index: 100;
     justify-content: center;align-items: center;
     font-size: 1.3rem;
     font-family: 'Inter';
+    text-shadow: 0px 1px 1px black;
+
 }
+.card-btn a
 
 @media (min-width: 1441px){
     .project-tag{
