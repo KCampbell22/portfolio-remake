@@ -14,7 +14,7 @@
   <body>
     <!-- Navigation menu -->
     <nav>
-      <ul id="nav-desktop" class="nav-bar mobile-d-none">
+      <ul id="nav-desktop" class="nav-bar">
         <li class="nav-item">
           <a href="" class="nav-link">Download CV</a>
         </li>
@@ -35,40 +35,31 @@
         </li>
       </ul>
       <!-- Mobile nav -->
-      <a id="hamburger" href="javascript:void(0);" onclick="showNav()">
-        <img src="/Images/hero/hamburger.png" alt="" />
-      </a>
-      <ul id="mobileNav" class="nav-bar">
-        <li class="nav-item">
-          <a href="" class="nav-link">Download CV</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Contact Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">Blog</a>
-          <ul class="dropdown">
-            <li class="nav-item">
-              <a href="#">Blog Home</a>
-            </li>
-            <li class="dropdown-item">
-              <a href="#">Most recent article</a>
-            </li>
-            <li class="dropdown-item">
-              <a href="#">Articles</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+        <ul class="mobile-menu">
+          <li class="nav-item">
+            <a href="" class="nav-link">Download CV</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Blog</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- hero banner -->
@@ -120,25 +111,119 @@
         </p>
       </div>
     </section>
+
+    <div class="project-tag">
+      <h2>Projects</h2>
+    </div>
     <!-- projects -->
-    <section id="projects">
-      <div class="project-card-wrap">
+    <section class="project-wrap">
+      <article class="projects">
+        <img src="/Images/hero/Rectangle 15.svg" class="project-bg" />
+        <div class="project-tag"></div>
         <div class="project-card">
           <h4>Endurance+</h4>
           <div class="project-img">
-            <img src="" alt="" />
+            <img src="/Images/E+-removebg-preview.png" alt="" />
           </div>
-          <a href="" class="card-btn"></a>
+          <div class="card-btn">
+            <a href="#">Learn more</a>
+          </div>
         </div>
-      </div>
+        <div class="project-card">
+          <h4>Endurance+</h4>
+          <div class="project-img">
+            <img src="/Images/E+-removebg-preview.png" alt="" />
+          </div>
+          <div class="card-btn">
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Endurance+</h4>
+          <div class="project-img">
+            <img src="/Images/E+-removebg-preview.png" alt="" />
+          </div>
+          <div class="card-btn">
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h4>Endurance+</h4>
+          <div class="project-img">
+            <img src="/Images/E+-removebg-preview.png" alt="" />
+          </div>
+          <div class="card-btn">
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </article>
     </section>
     <!-- Footer -->
     <footer>
       <div class="info">
-        <h1>hello</h1>
+        <div class="sprite-container">
+          <i class="sprite sprite-a"></i>
+          <i class="sprite sprite-b"></i>
+          <i class="sprite sprite-c"></i>
+        </div>
+        <div class="contact-me">
+          <div class="orange-border"></div>
+          <h2>Contact Me</h2>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2022 Kade Campbell</p>
+          <p>
+            Website designed by
+            <a href="https://www.fiverr.com/basseljouni?source=inbox"
+              >basseljouni</a
+            >
+          </p>
+          <p>
+            Fullstack Web Development at
+            <a href="https://www.altcademy.com">altcademy</a>
+          </p>
+        </div>
       </div>
-      <div class="form"></div>
+      <div class="header">
+        <h2>Contact me</h2>
+      </div>
+      <div class="form">
+        <form method="post" action="https://formspree.io/f/xjvlekpl">
+          <label for="first_name">First name</label>
+          <input type="text" name="first_name" />
+          <label for="last-nambe">Last name</label>
+          <input type="text" name="last-name" />
+          <label for="Subject">Subject</label>
+          <input type="text" name="Subject" />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="submit" role="button" class="card-btn form-btn">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="info-mobile">
+        <h2>Kade Campbell</h2>
+        <div class="spriteMobile">
+          <i class="sprite-mobile sprite-mobile-a"></i>
+          <i class="sprite-mobile sprite-mobile-b"></i>
+          <i class="sprite-mobile sprite-mobile-c"></i>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2022 Kade Campbell</p>
+          <p>
+            Website designed by
+            <a href="https://www.fiverr.com/basseljouni?source=inbox"
+              >basseljouni</a
+            >
+          </p>
+          <p>
+            Fullstack Web Development at
+            <a href="https://www.altcademy.com">altcademy</a>
+          </p>
+        </div>
+      </div>
     </footer>
-    <link rel="stylesheet" href="/apps.js" />
+    <script src="apps.js"></script>
   </body>
 </html>
