@@ -563,6 +563,10 @@ z-index: 100;
             max-width: 250px;
         }
 
+        #headshot{
+            top: -7rem;
+        }
+
 }
 
 
@@ -824,7 +828,7 @@ z-index: 100;
      position: relative;
  }
 .projects{
-    width: 80%;
+    width: 85%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -833,19 +837,18 @@ z-index: 100;
     padding: 0 2rem;
 }
 
-.projects::before{
-    content: url(/Images/hero/project-bg.svg);
-    position: absolute;
-    width: 1251px;
-    height: 1097px;
-    top: -17rem;
-    left: 35px;
-}
 
+
+.proj-gradient{
+    margin: 0 auto;
+    width: 90vw;
+    position: absolute;
+    bottom: 0;
+}
 
 .project-tag{
     position: relative;
-    left: 9rem;
+    left: 5rem;
     bottom: -38px;
     font-family: 'Inter';
     font-weight: 700;
@@ -863,6 +866,7 @@ z-index: 100;
     z-index: 100;
     margin-right: 30px;
     margin-bottom: 40px;
+    min-height: 347px;
 }
 .project-img img{
     width: 150px;
@@ -871,6 +875,9 @@ z-index: 100;
 .project-card h3{
     font-size: 1.5rem;
     font-family: 'Poppins';
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 .card-btn{
     max-height: 44px;
@@ -887,7 +894,7 @@ z-index: 100;
     text-shadow: 0px 1px 1px black;
 
 }
-.card-btn a
+
 
 @media (min-width: 1441px){
     .project-tag{
@@ -904,32 +911,30 @@ z-index: 100;
         bottom: -32rem;
         position: absolute;
     }
-    .projects::before{
-        display: none;
-    }
+   
 }
 
 @media (max-width: 1200px){
     /* projects */
+    .project-card{
+        min-height: 347px;
+    }
 
 }
 @media (min-width: 992px) and (max-width: 1200px){
     /* projects */
-    .projects::before{
-        top: 18rem;
-        left: -8rem;
-        transform: scale(.7);
-    }
+    
 }
 @media screen and (max-width: 1013.98px){
     /* projects */
     .project-card{
         width: 33%;
+        
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
         /* projects */
-
+    
 }
 @media (max-width: 768.98px){
         /* projects */
@@ -941,40 +946,25 @@ z-index: 100;
     left: 0%;
     text-align: center;
 }
-.projects::before{
-    content: url(/Images/hero/Rectangle\ 15.svg);
-    height: 100%;
-    position: absolute;
-    left: -9%;
-    border-radius: 35px;
-    transform: scale(.8, 2);
-    top: 61rem;
+
 }
+
+@media screen and (max-width: 715px) and (min-width: 576px){
+
 }
 
 @media screen and (max-width: 575.98px){
     /* projects */
-    .projects::before{
-        transform: scale(.5);
-        top: 53rem;
-        left: -72%;
-
-    }
+    
     
 }
 @media screen and (max-width: 376px){
     /* projects */
-    .projects::before{
-        transform: scale(.4);
-        left: -94%;
-    }
+    
 }
 @media screen and (max-width: 321.98px){
     /* projects */
-    .projects::before{
-        transform: scale(.37);
-    left: -122%;
-    }
+    
     
     
 }
