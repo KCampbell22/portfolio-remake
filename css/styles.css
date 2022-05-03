@@ -173,14 +173,11 @@ z-index: 100;
         display: none;
      }
      .hamburger-icon{
-         display: block;
-         margin-left: 10px;
-         margin-top: 10px;
+        display: block;
+        margin: 15px;
      }
 }
-@media (min-width: 576px) and (max-width: 767.98px){
-    
-}
+
 @media screen and (max-width: 575.98px){
     /* nav */
     .dropdown, #mobile-nav{
@@ -471,9 +468,6 @@ z-index: 100;
     .header-dt{
         font-size: 1.5rem;
     }
-    #logo-wrapper img{
-
-    }
     #headshot-wrap{
         top: -3rem;
     }
@@ -520,16 +514,15 @@ z-index: 100;
         top: -10rem;
     }
 
-        .btn-orange-1{
-            background-color: var(--btn-orange);
-            color: white;
-            max-width:  290px;
-            min-width: 203px;
-            max-height: 67px;
-            min-height: 47px;
-            text-shadow: 0px 1px 1px black;
-
-            text-align: center;
+    .btn-orange-1{
+        background-color: var(--btn-orange);
+        color: white;
+        max-width:  290px;
+        min-width: 203px;
+        max-height: 67px;
+        min-height: 47px;
+        text-shadow: 0px 1px 1px black;
+        text-align: center;
         }
         
         #logo-wrapper img{
@@ -674,8 +667,6 @@ z-index: 100;
         width: 35%;
         margin-right: 2rem;
     }
-    #skills-bio{
-    }
 }
 
 @media screen and (max-width: 991.98px){
@@ -720,20 +711,15 @@ z-index: 100;
 
 
 
-@media screen and (max-width: 575.98px){
-    /* skills and bio */
-}
 
 
 /*****************************************/
 
-/* Media queried */
+/* Media queries */
 
 /* general rules for flex changes */
 
-@media (min-width: 992px) and (max-width: 1200px){
-    
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 991.98px){
     
@@ -759,13 +745,7 @@ z-index: 100;
 
 
 
-@media screen and (max-width: 575.98px){
-    
-    
-    
-    
-    
-    
+@media screen and (max-width: 575.98px){ 
 
     /* skills and bio */
     #skills-bio{
@@ -871,13 +851,15 @@ z-index: 100;
 .project-img img{
     width: 150px;
     height: 150px;
+    margin-bottom: 1rem;
 }
 .project-card h3{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Poppins';
     text-align: center;
     padding-left: 15px;
     padding-right: 5px;
+    margin-bottom: auto;
 }
 .card-btn{
     max-height: 44px;
@@ -1143,24 +1125,6 @@ textarea{
 }
 
 /* Extra large screens and down */
-@media (max-width: 1200px){
-    
-}
-/* Large screens */
-@media (min-width: 992px) and (max-width: 1199.98px){
-    
-}
-
-/* Medium screens and down */
-@media (max-width: 991.98px){
-    
-}
-
-/* Medium screens */
-@media (min-width: 768px) and (max-width: 991.98px){
-    
-}
-
 @media screen and (max-width: 831px){
     footer{
         flex-direction: column;
@@ -1246,6 +1210,9 @@ textarea{
         font-size: 2rem;
         position: relative;
         z-index: 100;
+        display: block;
+        margin: 0 auto;
+        bottom: 2.5rem;
     }
     .form-btn{
         width: 80%;
@@ -1255,16 +1222,6 @@ textarea{
 
 }
 
-/* medim and down  */
-@media (max-width: 767.98px){
-    
-}
-
-/* small screens */
-@media (min-width: 576px) and (max-width: 767.98px){
-    
-}
-
 /* extra small screens */
 @media (max-width: 575.98px){
     form{
@@ -1272,6 +1229,9 @@ textarea{
     }
     .header{
         font-size: 1.3rem;
+    }
+    .info-mobile{
+        top:8rem;
     }
     
 }
