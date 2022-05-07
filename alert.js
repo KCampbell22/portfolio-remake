@@ -1,5 +1,2 @@
-document.addEventListener("click", notRady());
+document.addEventListener("click", notReady());
 
-function notReady() {
-alert ('This link is not ready yet.');
-}
