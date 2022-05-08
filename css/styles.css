@@ -349,11 +349,12 @@ z-index: 100;
 
 @media (min-width: 1441px){
     .header-dt{
-        font-size: 6rem;
+        text-align: right;
+        font-size: 4.5rem;
     width: 90rem;
 }
 #slogan-btn{
-    left: 45rem;
+    left: 0rem;
 }
 .btn-orange-1{
     font-size: 1.8rem;
