@@ -245,6 +245,15 @@ z-index: 100;
 }
 .hero{
     background: linear-gradient(120.05deg, #243AC0 9.39%, #000421 68.32%);
+    background: -moz-linear-gradient(120.05deg, #243AC0 9.39%, #000421 68.32%); /* FF 3.6+ */  
+    background: -ms-linear-gradient(120.05deg, #243AC0 9.39%, #000421 68.32%); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(120.05deg, #243AC0 9.39%, #000421 68.32%)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(black, transparent); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(120.05deg, #243AC0 9.39%, #000421 68.32%); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#243AC0', endColorstr=#000421); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#243AC0', endColorstr=#000421)"; /* IE8+ */  
+    z-index: 1;
+    
     background-repeat: no-repeat;
     width: 100%;
     background-attachment: fixed;
