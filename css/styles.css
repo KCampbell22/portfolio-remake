@@ -433,7 +433,7 @@ z-index: 100;
     }
     .wrap{
         max-height: 76rem;
-        min-height: 66rem;
+        min-height: 60rem;
     }
     #headshot-wrap{
         position: relative;
