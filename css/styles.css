@@ -511,7 +511,7 @@ z-index: 100;
 @media screen and (max-width: 575.98px){
     /* hero */
     .wrap{
-        min-height: 47rem;
+        min-height: 44rem;
     }
     .hero{
         min-height: 636px;
