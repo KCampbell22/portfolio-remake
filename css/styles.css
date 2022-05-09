@@ -743,7 +743,7 @@ z-index: 100;
 @media (max-width: 988px){
     #skills-bio{
         flex-direction: column-reverse;
-        margin-top: 3rem;
+        margin-top: -3rem;
     }
 }
 
