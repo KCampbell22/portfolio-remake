@@ -572,9 +572,6 @@ z-index: 100;
             max-width: 250px;
         }
 
-        #headshot{
-            top: -7rem;
-        }
 
 }
 
@@ -811,6 +808,11 @@ z-index: 100;
         display: none;
     }
 
+@media only screen and (max-width: 375px) {
+    #skills-bio{
+        margin-top: -1rem;
+    }
+}
     
     /*****************************************/
     
