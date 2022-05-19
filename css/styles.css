@@ -843,6 +843,7 @@ z-index: 100;
     width: 90vw;
     position: absolute;
     bottom: 0;
+    margin-right: 35px;
 }
 
 .project-tag{
