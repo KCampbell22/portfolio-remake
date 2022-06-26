@@ -13,6 +13,7 @@ button{
 body, html{
     background: #E5E5E5;
     overflow-x: hidden;
+    font-size: 100%;
 }
 
 header{
