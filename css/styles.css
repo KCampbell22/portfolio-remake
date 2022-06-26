@@ -767,7 +767,7 @@ z-index: 100;
     /* skills and bio */
     #skills-bio{
         flex-direction: column-reverse;
-        margin-top:;
+        margin-top: -3rem;
     }
 
     .skills, .bio{
