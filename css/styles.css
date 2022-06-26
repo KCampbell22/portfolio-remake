@@ -464,7 +464,7 @@ z-index: 100;
         min-height: 71rem;
     }
     .hero{
-        margin-bottom: 3rem;
+        margin-bottom: 13rem;
      }
      .hero-row{
          top: -12rem;
@@ -524,7 +524,7 @@ z-index: 100;
     }
     .hero{
         min-height: 636px;
-        margin-bottom: 13rem;
+        margin-bottom: 3rem;
         }
     .hero-row{
         top: -10rem;
@@ -766,7 +766,7 @@ z-index: 100;
     /* skills and bio */
     #skills-bio{
         flex-direction: column-reverse;
-        margin-top: 0;
+        margin-top:;
     }
 
     .skills, .bio{
