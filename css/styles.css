@@ -566,7 +566,7 @@ z-index: 100;
 
         }
         #headshot-wrap{
-            top: 0;
+            top: -1rem;
         }
         #top-left-img{
             max-width: 250px;
