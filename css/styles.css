@@ -132,7 +132,7 @@ z-index: 100;
     display: none;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1200px){
     /* nav */
     #mobileNav{
         display: none;
@@ -143,7 +143,7 @@ z-index: 100;
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
     /* nav */
     .nav-bar{
         display: none;
@@ -165,7 +165,7 @@ z-index: 100;
         margin-bottom: 10px;
     }
 }
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .nav-bar{
         display: none;
      }
@@ -175,7 +175,7 @@ z-index: 100;
      }
 }
 
-@media screen and (max-width: 575.98px){
+@media only screen and (max-width: 575.98px){
     /* nav */
     .dropdown, #mobile-nav{
         display: none;
@@ -344,7 +344,7 @@ z-index: 100;
     display: none;
 }
 
-@media screen and (min-width: 1441px){
+@media only screen and (min-width: 1441px){
     .header-dt{
         text-align: right;
         font-size: 4.5rem;
@@ -367,7 +367,7 @@ z-index: 100;
     
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1200px){
     /* hero */
     .wrap{
         min-height: 76rem;
@@ -399,7 +399,7 @@ z-index: 100;
 
 }
 
-@media screen and (max-width: 991.98px){
+@media only screen and (max-width: 991.98px){
     /* hero */
     .hero{
         margin-bottom: 13rem;
@@ -433,7 +433,7 @@ z-index: 100;
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
     /* hero */
     .hero{
         margin-bottom: 22rem;
@@ -458,13 +458,13 @@ z-index: 100;
     
 
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
     /* hero */
     .wrap{
         min-height: 71rem;
     }
     .hero{
-        margin-bottom: 13rem;
+        margin-bottom: 3rem;
      }
      .hero-row{
          top: -12rem;
@@ -517,7 +517,7 @@ z-index: 100;
 
 }
 
-@media screen and (max-width: 575.98px){
+@media only screen and (max-width: 575.98px){
     /* hero */
     .wrap {
         min-height: 44rem;
@@ -656,13 +656,13 @@ z-index: 100;
     color: var(--text-blue);
 }
 
-@media screen and (min-width: 1441px){
+@media only screen and (min-width: 1441px){
     #skills-bio{
         top: 11rem;
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1200px){
     /* skills and bio */
     #skills-bio::before{
     position: absolute;
@@ -681,7 +681,7 @@ z-index: 100;
     }
 }
 
-@media screen and (max-width: 991.98px){
+@media only screen and (max-width: 991.98px){
     /* skills and bio */
     #slogan-btn{
         align-items: center;
@@ -733,7 +733,7 @@ z-index: 100;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
     
     
     .nav-bar{
@@ -749,7 +749,7 @@ z-index: 100;
     
 }
 
-@media screen and (max-width: 988px){
+@media only screen and (max-width: 988px){
     #skills-bio{
         flex-direction: column-reverse;
         margin-top: -3rem;
@@ -761,7 +761,7 @@ z-index: 100;
 
 
 
-@media screen and (max-width: 575.98px){ 
+@media only screen and (max-width: 575.98px){ 
 
     /* skills and bio */
     #skills-bio{
@@ -808,7 +808,7 @@ z-index: 100;
         display: none;
     }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     #skills-bio{
         margin-top: -1rem;
     }
@@ -898,7 +898,7 @@ z-index: 100;
 }
 
 
-@media screen and (min-width: 1441px){
+@media only screen and (min-width: 1441px){
     .project-tag{
         left: 12rem;
         top: 12rem;
@@ -916,29 +916,29 @@ z-index: 100;
    
 }
 
-@media screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px){
     /* projects */
     .project-card{
         min-height: 347px;
     }
 
 }
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media only screen and (min-width: 992px) and (max-width: 1200px){
     /* projects */
     
 }
-@media screen and (max-width: 1013.98px){
+@media only screen and (max-width: 1013.98px){
     /* projects */
     .project-card{
         width: 33%;
         
     }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
         /* projects */
     
 }
-@media screen and (max-width: 768.98px){
+@media only screen and (max-width: 768.98px){
         /* projects */
 .project-card{
     width: 85%;
@@ -1118,7 +1118,7 @@ textarea{
 }
 
  /* Extra Large and up screen sizes */
-@media screen and (min-width: 1441px){
+@media only screen and (min-width: 1441px){
     /* Footer */
 .form{
     left: 3rem;
@@ -1128,7 +1128,7 @@ textarea{
 
 
 /* Extra large screens and down */
-@media screen and (max-width: 831px){
+@media only screen and (max-width: 831px){
     footer{
         flex-direction: column;
         align-items: center;
@@ -1226,7 +1226,7 @@ textarea{
 }
 
 /* extra small screens */
-@media screen and (max-width: 575.98px){
+@media only screen and (max-width: 575.98px){
     form{
         width: 87%;
     }
