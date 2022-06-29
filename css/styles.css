@@ -313,18 +313,17 @@ z-index: 100;
 }
 
 #headshot{
-    width: 80% ;
+    width: 70% ;
     height: auto;
     position: absolute;
     margin: auto;
-    top: -5rem;
 }
 
 #headshot-wrap{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 44rem;
+    top: 37rem;
 }
 .btn-orange-1{
     background-color: var(--btn-orange);
