@@ -313,8 +313,8 @@ z-index: 100;
 }
 
 #headshot{
-    width: 70% ;
-    height: auto;
+    height: 700px ;
+    width: auto;
     position: absolute;
     margin: auto;
 }
