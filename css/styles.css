@@ -766,6 +766,7 @@ nav {
   .bio {
     width: 80%;
     margin: auto;
+    margin-bottom: 3rem;
   }
   .skills::before {
     content: url(/Images/hero/skill-bg-mogile.svg);
