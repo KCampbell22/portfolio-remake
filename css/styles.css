@@ -816,6 +816,34 @@ nav {
 }
 /*****************************************/
 /* projects */
+.filter_div {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 24px;
+  z-index: 10;
+}
+.filter_form {
+  position: absolute;
+  width: 15em;
+  z-index: 10;
+  border-radius: 6px;
+  boxshadow: 0px 4px 32px rgba(179, 179, 179, 0.25);
+}
+
+select {
+  border: none;
+  height: 35px;
+  padding: 5px;
+}
+
+.filter_form button {
+  height: 30px;
+  margin-left: 10px;
+}
+
 .project-wrap {
   width: 100vw;
   display: flex;
@@ -860,6 +888,7 @@ nav {
   margin-right: 30px;
   margin-bottom: 40px;
   min-height: 347px;
+  box-shadow: 0px 4px 32px rgba(179, 179, 179, 0.25);
 }
 .project-img img {
   width: 150px;
@@ -925,15 +954,17 @@ nav {
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   /* projects */
 }
-@media only screen and (max-width: 768.98px) {
+@media only screen and (max-width: 768px) {
   /* projects */
   .project-card {
     width: 85%;
     margin-right: 0;
+    /*set to default position*/
   }
   .project-tag {
     left: 0%;
     text-align: center;
+    bottom: 0;
   }
 }
 
@@ -1030,7 +1061,7 @@ footer {
   height: 47px;
   background-position: -10px -147px;
 }
-.form {
+.form-container {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -1042,7 +1073,7 @@ footer {
   background-repeat: no-repeat;
   background-position: right center;
 }
-form {
+.contact-form {
   width: 60%;
   min-height: auto;
   display: flex;
@@ -1053,7 +1084,7 @@ form {
   right: 100px;
 }
 
-.form img {
+.form-containerimg {
   position: absolute;
 }
 label {
@@ -1104,7 +1135,7 @@ textarea {
 /* Extra Large and up screen sizes */
 @media only screen and (min-width: 1441px) {
   /* Footer */
-  .form {
+  .form-container {
     left: 3rem;
   }
 }
@@ -1126,13 +1157,13 @@ textarea {
   .info {
     display: none;
   }
-  .form {
+  .form-container {
     background: none;
     align-items: center;
     width: 80%;
     left: 0rem;
   }
-  form {
+  .contact-form {
     background: linear-gradient(
       165.25deg,
       rgba(188, 42, 191, 0.32) 4.18%,
@@ -1211,7 +1242,7 @@ textarea {
 
 /* extra small screens */
 @media only screen and (max-width: 575.98px) {
-  form {
+  .contact-form {
     width: 87%;
   }
   .header {
@@ -1220,4 +1251,8 @@ textarea {
   .info-mobile {
     top: 8rem;
   }
+}
+
+.hidden {
+  display: none;
 }

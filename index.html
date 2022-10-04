@@ -162,12 +162,26 @@
     <div class="project-tag">
       <h2>Projects</h2>
     </div>
+
     <!-- projects -->
     <section id="projects" class="project-wrap">
+      <select
+        class="filter_form"
+        selected
+        name=""
+        onchange="filterType()"
+        id="filter_options"
+      >
+        <option value="filter">Filter</option>
+        <option value="all">All</option>
+        <option value="react">React</option>
+        <option value="htmlCss">HTML/CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="bootstrap">Bootstrap</option>
+      </select>
       <article class="projects">
         <img src="/Images/hero/Rectangle 15.svg" class="project-bg" />
-        <div class="project-tag"></div>
-        <div class="project-card">
+        <div class="project-card htmlCss">
           <h3>Endurance+</h3>
           <div class="project-img">
             <img src="/Images/E+-removebg-preview.png" alt="E+ logo" />
@@ -177,8 +191,15 @@
               >View project</a
             >
           </div>
+          <div class="card-btn">
+            <a
+              href="https://github.com/KCampbell22/E-plus-landing"
+              target="_blank"
+              >View Repository</a
+            >
+          </div>
         </div>
-        <div class="project-card">
+        <div class="project-card htmlCss">
           <h3>Apple CLone</h3>
           <div class="project-img">
             <img src="/Images/Apple.svg" alt="Apple logo" />
@@ -190,8 +211,15 @@
               >View project</a
             >
           </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://github.com/KCampbell22/Project-Apple-Clone"
+              >View Repository</a
+            >
+          </div>
         </div>
-        <div class="project-card">
+        <div class="project-card bootstrap">
           <h3>Newsweekly Clone</h3>
           <div class="project-img">
             <img src="/Images/newsweek-logo.png" alt="Newsweekly logo" />
@@ -203,8 +231,15 @@
               >View project</a
             >
           </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://github.com/KCampbell22/Newsweekly-Kade"
+              >View Repository</a
+            >
+          </div>
         </div>
-        <div class="project-card">
+        <div class="project-card bootstrap">
           <h3>Airbnb Newsroom Clone</h3>
           <div class="project-img">
             <img src="/Images/airbnb-logo-0.png" alt="Airbnb logo" />
@@ -216,8 +251,15 @@
               >View project</a
             >
           </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://github.com/KCampbell22/aribnb_news_clone"
+              >View Repository</a
+            >
+          </div>
         </div>
-        <div class="project-card">
+        <div class="project-card javascript">
           <h3>Rock Paper Scissors Game</h3>
           <div class="project-img">
             <img
@@ -230,6 +272,54 @@
               target="_blank"
               href="https://rock-paper-scissors-kadecampbell.netlify.app/"
               >View project</a
+            >
+          </div>
+          <div class="card-btn">
+            <a target="_blank" href="https://github.com/KCampbell22/rps"
+              >View Repository</a
+            >
+          </div>
+        </div>
+        <div class="project-card javascript htmlCss">
+          <h3>ABC Creations</h3>
+          <div class="project-img">
+            <img
+              src="/Images/Pink and Black Pretty Lovely Cosmetics Boutique Logo (3)_prev_ui.png"
+              alt="Airbnb logo"
+            />
+          </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://reliable-marshmallow-c6e326.netlify.app/"
+              >View project</a
+            >
+          </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://github.com/KCampbell22/ABC-Creations"
+              >View Repository</a
+            >
+          </div>
+        </div>
+        <div class="project-card react">
+          <h3>Movie Finder</h3>
+          <div class="project-img">
+            <img src="/Images/cinema.png" alt="Airbnb logo" />
+          </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://movie-finder-react-kade.netlify.app/"
+              >View project</a
+            >
+          </div>
+          <div class="card-btn">
+            <a
+              target="_blank"
+              href="https://github.com/KCampbell22/movie-finder-react"
+              >View Repository</a
             >
           </div>
         </div>
@@ -273,8 +363,12 @@
       <div class="header">
         <h2>Contact me</h2>
       </div>
-      <div class="form">
-        <form method="post" action="https://formspree.io/f/xjvlekpl">
+      <div class="form-container">
+        <form
+          class="contact-form"
+          method="post"
+          action="https://formspree.io/f/xjvlekpl"
+        >
           <label for="first_name">First name</label>
           <input type="text" id="first_name" name="first_name" />
           <label for="last-name">Last name</label>
@@ -321,5 +415,6 @@
     </footer>
     <script src="apps.js"></script>
     <script src="/notReady.js"></script>
+    <script src="./filter.js"></script>
   </body>
 </html>
