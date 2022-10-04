@@ -830,7 +830,7 @@ nav {
   width: 15em;
   z-index: 10;
   border-radius: 6px;
-  boxshadow: 0px 4px 32px rgba(179, 179, 179, 0.25);
+  box-shadow: 0px 4px 32px rgba(179, 179, 179, 0.25);
 }
 
 select {

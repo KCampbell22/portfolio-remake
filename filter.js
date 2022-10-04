@@ -9,7 +9,6 @@
 // filter happens on the filter button click or form submit
 
 var projectCards = document.getElementsByClassName("project-card");
-var filterBtn = document.querySelector(".filter_form button");
 var selectedFilter = document.getElementById("filter_options");
 
 // var reactProjects = document.querySelectorAll("[data-react]");
@@ -63,4 +62,7 @@ function display(filter) {
 }
 
 // onchange event listener for the filter button
-filterBtn.addEventListener("onchange", filterType);
+// onsubmit event listener for the form
+document
+  .getElementById("filter_options")
+  .addEventListener("change", filterType);
